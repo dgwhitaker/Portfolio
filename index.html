@@ -1,0 +1,828 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>David's Portfolio</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Dancing+Script">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link href="css/font-awesome.min.css" rel="stylesheet">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" href="theme.css"/>
+<!-- <script>
+$(document).ready(function(){
+// Add smooth scrolling to all links in navbar + footer link
+$(".navbar a, footer a[href='#myPage']").on('click', function(event) {
+ // Make sure this.hash has a value before overriding default behavior
+if (this.hash !== "") {
+  // Prevent default anchor click behavior
+  event.preventDefault();
+  // Store hash
+  var hash = this.hash;
+  // Using jQuery's animate() method to add smooth page scroll
+  // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+  $('html, body').animate({
+    scrollTop: $(hash).offset().top
+  }, 900, function(){
+    // Add hash (#) to URL when done scrolling (default click behavior)
+    window.location.hash = hash;
+    });
+  } // End if
+});
+})
+</script> -->
+
+<!-- <script type = "text/javascript">
+$(function() {
+	$('#carouselmain').carouFredSel({
+		items: 1,
+		auto: false,
+		prev: '#prev',
+		next: '#next',
+		scroll: {
+			onBefore: function( data ) {
+				$('#wrapp').animate({
+					width: data.width,
+					height: data.height,
+					marginTop: -(data.height / 2),
+					marginLeft: -(data.width / 2) - 100
+				}, {
+					duration: data.scroll.duration
+				});
+			}
+		}
+	});
+});
+</script> -->
+
+</head>
+
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60" class="index">
+
+  <nav class="navbar navbar-default navbar-fixed-top" role = "navigation">
+    <div class ="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#"><strong>David Whitaker</strong></a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+          <!-- <li><a href"" id='blank'></a></li> -->
+          <li><a href="#about">ABOUT</a></li>
+          <li><a href="#education2">EDUCATION</a></li>
+          <li><a href="#projects">PROJECTS</a></li>
+          <li><a href="#experience">EXPERIENCE</a></li>
+          <li><a href="#contact">CONTACT</a></li>
+          <li><a href="#personal">PERSONAL</a></li>
+
+        </ul>
+    </div> <!-- end class -->
+  </div>
+  </nav>
+
+<header class = "myHome" id="HOME" data-animate-up="header-hide" data-animate-down="header-hide">
+     <div class="container-fluid">
+       <br>
+       <br>
+       <br>
+       <div class = "title">
+        Welcome to my portfolio!
+        </div>
+     </div>
+</header>
+
+<section id="about">
+<div class="about container-fluid bg-grey">
+  <div class="row">
+    <center><h1> ABOUT ME </h1></center>
+    <div class="col-md-4 text-right">
+
+      <img class="img-rounded" align="right" src="img/me.jpg" alt="">
+      <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <div style = "padding-right: 35px;">
+        <a href = "#contact"><button class="btn btn-default btn-lg contact-bt" align="right">Contact Me</button></a>
+      </div>
+    </div>
+    <div class ="col-md-8" style="padding-right: 450px; padding-left: 70px;">
+
+
+      <p class = "a">Hi! My name is David Whitaker, and welcome to my portfolio! <br><br> On this page you will find educational background, projects that I have
+        contributed to and are currently contributing to, and my past work experience. <br><br>
+        I am currently an undergratuate
+         senior at the University of Massachusetts Amherst. Go Minutemen!
+          I study computer science with a specialization in software engineering.
+        </p>
+
+    </div>
+  </div>
+</div>
+</section>
+
+<section id="education2">
+ <div class="container">
+  <div class="row">
+   <div class="col-md-12">
+    <div class="text-center">
+      <h1> EDUCATION</h1>>
+    </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-6">
+      <img src = "img/umass-banner.jpg" style = "width:555px; height: 130%;">
+                    <!-- <ul class="nav nav-tabs main-tab-list text-center" role="tablist"> -->
+                          <!-- <li role="presentation" class="active">
+                            <a href="#home" role="tab" data-toggle="tab">
+                              <div class="single-tab">
+                                 <img src="img/umass.jpg" width="100" height="100">
+                              </div>
+                            </a>
+                          </li> -->
+                          <!-- <li role="presentation">
+                            <a href="#wachusett" role="tab" data-toggle="tab">
+                                <div class="single-tab">
+                                  <img src="img/wachusett.jpg" width="100" height="100">
+                                </div>
+                            </a>
+                          </li> -->
+                    <!-- </ul> -->
+    </div> <!-- col-md-12 end -->
+    <div class = "col-md-6 text-center">
+      <h3 class="feature_sub"><b>Major:</b> Computer Science | <b>Subtrack:</b> Software Engineering </h3>
+        <h3 class="feature_sub"><b>Minor:</b> Mathematics</h3>
+          <div class="divider"></div>
+    </div>
+
+  </div>
+
+    <div class="row">
+      <div class="col-md-6"> <!-- left half -->
+        <img src="img/Umass-Amherst.jpg" alt="" class="img-responsive">
+          <br><br>
+           <img src = "img/compsci.jpg" class="img-responsive" style="width:555px;">
+      </div>
+      <div class="col-md-6"> <!-- right half -->
+       <div class="c-tab">
+        <center><h3><b>&nbsp;&nbsp;<u>Relevant Classwork</u></b></h3></center>
+          <br>
+                                      <!-- this section contains all the course data -->
+        <section id="courseList">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-6 ">
+                <div class="course-text">
+                                                  <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                                                    <div class="panel panel-default">
+                                                      <div class="panel-heading active" role="tab" id="121">
+                                                        <h4 class="panel-title">
+                                                          <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                                            CS121: Introduction to Computer Programming
+                                                          </a>
+                                                        </h4>
+                                                      </div>
+                                                      <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+                                                        <div class="panel-body p1">
+                                                          COMPSCI 121 provides an introduction to problem solving and computer programming using the programming
+                                                          language Java; it also provides an integrated introduction to some of the wonderful innovations to
+                                                          modern science and indeed modern life that can be attributed to computer science. The course
+                                                          teaches how real-world problems can be solved computationally using the object-oriented
+                                                          metaphor that underlies Java. Concepts and techniques covered include data types, expressions,
+                                                          objects, methods, top-down program design, program testing and debugging, state representation,
+                                                          interactive programs, data abstraction, conditionals, iteration, interfaces, inheritance, arrays,
+                                                          graphics, and GUIs. No previous programming experience required.
+                                                        </div>
+                                                      </div>
+                                                    </div>
+                                                    <div class="panel panel-default">
+                                                      <div class="panel-heading " role="tab" id="187">
+                                                        <h4 class="panel-title">
+                                                          <a class="accordion-toggle collapsed"  data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                                            CS187: Programming With Data Structures
+                                                          </a>
+                                                        </h4>
+                                                      </div>
+                                                      <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                                                        <div class="panel-body p1">
+                                                          The course introduces and develops methods for designing and implementing abstract data types
+                                                           using the Java programming language. The main focus is on how to build and encapsulate data objects
+                                                           and their associated operations. Specific topics include linked structures, recursive structures and algorithms,
+                                                            binary trees, balanced trees, and hash tables. These topics are fundamental to programming and are essential
+                                                             to other courses in computer science.
+                                                        </div>
+                                                      </div>
+                                                    </div>
+                                                    <div class="panel panel-default">
+                                                      <div class="panel-heading " role="tab" id="220">
+                                                        <h4 class="panel-title">
+                                                          <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                                            CS220: Programming Methodology
+                                                          </a>
+                                                        </h4>
+                                                      </div>
+                                                      <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                                                        <div class="panel-body p1">
+                                                          Development of individual skills necessary for designing, implementing, testing and modifying larger programs,
+                                                          including: use of integrated design environments, design strategies and patterns, testing, working with large
+                                                           code bases and libraries, code refactoring, and use of debuggers and tools for version control.
+                                                        </div>
+                                                      </div>
+                                                    </div>
+                                                    <div class="panel panel-default">
+                                                      <div class="panel-heading " role="tab" id="230">
+                                                        <h4 class="panel-title">
+                                                          <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse230" aria-expanded="false" aria-controls="collapseThree">
+                                                            CS230: Computer Systems Principles
+                                                          </a>
+                                                        </h4>
+                                                      </div>
+                                                      <div id="collapse230" class="panel-collapse collapse" role="tabpanel" aria-labelledby="230">
+                                                        <div class="panel-body p1">
+                                                          Large-scale software systems like Google - deployed over a world-wide network of hundreds of thousands
+                                                          of computers - have become a part of our lives. These are systems success stories - they are reliable,
+                                                          available ("up" nearly all the time), handle an unbelievable amount of load from users around the world,
+                                                          yet provide virtually instantaneous results. On the other hand, many computer systems don't perform nearly
+                                                          as well as Google - hence the now-cliché "the system is down." In this class, we study the scientific principles
+                                                           behind the construction of high-performance, scalable systems. The course begins with a discussion of C language,
+                                                           and moves up the stack from there to the features of modern architectures, assembly languages, and operating system
+                                                           services such as I/O and synchronization.
+                                                        </div>
+                                                      </div>
+                                                    </div>
+                                                    <div class="panel panel-default">
+                                                      <div class="panel-heading " role="tab" id="240">
+                                                        <h4 class="panel-title">
+                                                          <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse240" aria-expanded="false" aria-controls="collapseThree">
+                                                            CS240: Reasoning Under Uncertainty
+                                                          </a>
+                                                        </h4>
+                                                      </div>
+                                                      <div id="collapse240" class="panel-collapse collapse" role="tabpanel" aria-labelledby="240">
+                                                        <div class="panel-body p1">
+                                                        Development of mathematical reasoning skills for problems that involve uncertainty. Each concept will be illustrated by real-world examples and demonstrated though in-class and homework exercises, some of which will involve programming. Counting and probability -- basic counting problems, probability definitions, mean, variance, binomial distribution, Markov and Chebyshev bounds. Probabilistic reasoning -- conditional probability and odds, Bayes' Law, Naive Bayes classifiers, Monte Carlo simulation. Markov chains, Markov decision processes, classical game theory, introduction to information theory.
+                                                        </div>
+                                                      </div>
+                                                    </div>
+                                                    <div class="panel panel-default">
+                                                      <div class="panel-heading " role="tab" id="250">
+                                                        <h4 class="panel-title">
+                                                          <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse250" aria-expanded="false" aria-controls="collapseThree">
+                                                            CS250: Introduction to Computation
+                                                          </a>
+                                                        </h4>
+                                                      </div>
+                                                      <div id="collapse250" class="panel-collapse collapse" role="tabpanel" aria-labelledby="250">
+                                                        <div class="panel-body p1">
+                                                           Basic concepts of discrete mathematics useful to computer science: set theory, strings and formal languages, propositional and predicate calculus, relations and functions, basic number theory. Induction and recursion: interplay of inductive definition, inductive proof, and recursive algorithms. Graphs, trees, and search. Finite-state machines, regular languages, nondeterministic finite automata, Kleene's Theorem.
+                                                        </div>
+                                                      </div>
+                                                    </div>
+                                                    <div class="panel panel-default">
+                                                      <div class="panel-heading " role="tab" id="305">
+                                                        <h4 class="panel-title">
+                                                          <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse305" aria-expanded="false" aria-controls="collapseThree">
+                                                            CS305: Social Issues In Computing
+                                                          </a>
+                                                        </h4>
+                                                      </div>
+                                                      <div id="collapse305" class="panel-collapse collapse" role="tabpanel" aria-labelledby="305">
+                                                        <div class="panel-body p1">
+                                                          Using a range of different disciplinary perspectives we will explore various impacts of computers on modern society. This exploration will focus primarily on the social impacts of computers, with an emphasis on ethical concerns. Students will gain practice in several writing genres, including public writing and academic writing. Students will produce approximately 20-25 polished pages via 4-6 larger written projects. Writing experiences will also include writing for electronic environments, extensive practice with peer review, and discussion of job-seeking documents; there will be two presentations.
+                                                        </div>
+                                                      </div>
+                                                    </div>
+                                                    <div class="panel panel-default">
+                                                      <div class="panel-heading " role="tab" id="311">
+                                                        <h4 class="panel-title">
+                                                          <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse311" aria-expanded="false" aria-controls="collapseThree">
+                                                            CS311: Introduction To Algorithms
+                                                          </a>
+                                                        </h4>
+                                                      </div>
+                                                      <div id="collapse311" class="panel-collapse collapse" role="tabpanel" aria-labelledby="311">
+                                                        <div class="panel-body p1">
+                                                          This course will introduce you to algorithms in a variety of areas of interest, such as sorting, searching, string-processing, and graph algorithms. You will learn to study the performance of various algorithms within a formal, mathematical framework. You will also learn how to design very efficient algorithms for many kinds of problems. There will be one or more programming assignments as well to help you relate the empirical performance of an algorithm to theoretical predictions. Mathematical experience (as provided by COMPSCI 250) is required. You should also be able to program in Java, C, or some other closely related language.
+                                                        </div>
+                                                      </div>
+                                                    </div>
+                                                    <div class="panel panel-default">
+                                                      <div class="panel-heading " role="tab" id="320">
+                                                        <h4 class="panel-title">
+                                                          <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse320" aria-expanded="false" aria-controls="collapseThree">
+                                                            CS320: Computer Systems Principles
+                                                          </a>
+                                                        </h4>
+                                                      </div>
+                                                      <div id="collapse320" class="panel-collapse collapse" role="tabpanel" aria-labelledby="320">
+                                                        <div class="panel-body p1">
+                                                          In this course, students learn and gain practical experience with software engineering principles and techniques. The practical experience centers on a semester-long team project in which a software development project is carried through all the stages of the software life cycle. Topics in this course include requirements analysis, specification, design, abstraction, programming style, testing, maintenance, communication, teamwork, and software project management. Particular emphasis is placed on communication and negotiation skills and on designing and developing maintainable software. Use of computer required. Several written assignments, in-class presentations, exams, and a term project.
+                                                        </div>
+                                                      </div>
+                                                    </div>
+                                                    <div class="panel panel-default">
+                                                      <div class="panel-heading " role="tab" id="325">
+                                                        <h4 class="panel-title">
+                                                          <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse325" aria-expanded="false" aria-controls="collapseThree">
+                                                            CS325: Introduction to Human Computer Interaction (Currently Enrolled)
+                                                          </a>
+                                                        </h4>
+                                                      </div>
+                                                      <div id="collapse325" class="panel-collapse collapse" role="tabpanel" aria-labelledby="325">
+                                                        <div class="panel-body p1">
+                                                          In this course we examine the important problems in Usability, Human Computer Interaction, User Interfaces and Human Centered Computing. We will examine elements of HCI history, human information processing capabilities, HCI design, user interface prototyping methods and new applications and directions in HCI, including affective HCI. This is not a course on how to make better dialog boxes, but rather a much more thorough exploration of how humans interact with computers and how to evaluate the effectiveness of HCI designs. Some elementary programming, or the use of UI prototyping tools, will be required, but students without prior programming experience should feel right at home in this class. The course is available to any undergraduate student and is not limited to computer scientists. IT-minor students are especially encouraged to participate. The course emphasizes group projects and students will be required to work in teams.
+                                                        </div>
+                                                      </div>
+                                                    </div>
+                                                    <div class="panel panel-default">
+                                                      <div class="panel-heading " role="tab" id="326">
+                                                        <h4 class="panel-title">
+                                                          <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse326" aria-expanded="false" aria-controls="collapseThree">
+                                                            CS326: Computer Systems Principles
+                                                          </a>
+                                                        </h4>
+                                                      </div>
+                                                      <div id="collapse326" class="panel-collapse collapse" role="tabpanel" aria-labelledby="326">
+                                                        <div class="panel-body p1">
+                                                          The World Wide Web was proposed originally as a collection of static documents inter-connected by hyperlinks. Today, the web has grown into a rich platform, built on a variety of protocols, standards, and programming languages, that aims to replace many of the services traditionally provided by a desktop operating system. Topics will include: producing dynamic content using a server-based language, content serving databases and XML documents, session state management, multi-tier web-based architectures, web security, and core technologies including HTTP, HTML5, CSS, JavaScript, and SQL will be emphasized. This course will also study concepts and technologies including AJAX, social networking, mashups, JavaScript libraries (e.g., jQuery), and web security. This course is hands-on and project-based; students will construct a substantial dynamic web application based on the concepts, technologies, and techniques presented during lecture.
+                                                        </div>
+                                                      </div>
+                                                    </div>
+                                                    <div class="panel panel-default">
+                                                      <div class="panel-heading " role="tab" id="348">
+                                                        <h4 class="panel-title">
+                                                          <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse348" aria-expanded="false" aria-controls="collapseThree">
+                                                            CS348: introduction To Knowledge Discovery
+                                                          </a>
+                                                        </h4>
+                                                      </div>
+                                                      <div id="collapse348" class="panel-collapse collapse" role="tabpanel" aria-labelledby="348">
+                                                        <div class="panel-body p1">
+
+                                                          Knowledge discovery is the process of discovering useful regularities in large and complex data sets.  The field encompasses techniques from artificial intelligence (representation and search), statistics (inference), and databases (data storage and access).  When integrated in to useful systems, these techniques can help human analysts make sense of vast stores of digital information.  This course presents the fundamental principles of the field, familiarizes students with the technical details of representative algorithms, and connects these concepts to applications in industry, science, and government, including fraud detection, marketing, scientific discovery, and web mining.  The course assumes that students are familiar with basic concepts and algorithms from probability and statistics.
+                                                        </div>
+                                                      </div>
+                                                    </div>
+                                                    <div class="panel panel-default">
+                                                      <div class="panel-heading " role="tab" id="453">
+                                                        <h4 class="panel-title">
+                                                          <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse453" aria-expanded="false" aria-controls="collapseThree">
+                                                            CS453: Computer Networks (Currently Enrolled)
+                                                          </a>
+                                                        </h4>
+                                                      </div>
+                                                      <div id="collapse453" class="panel-collapse collapse" role="tabpanel" aria-labelledby="453">
+                                                        <div class="panel-body p1">
+                                                          Introduction to computer communication networks and protocols. Fundamental concepts in the design and analysis of computer networks. Topics include: layered network architectures, applications, network, programming interfaces, transport, congestion, routing, data link protocols, local area networks, emerging high-speed networks, network security, and wireless networks. Examples drawn from the Internet (e.g., TCP, UDP, and IP) protocol suite.
+                                                        </div>
+                                                      </div>
+                                                    </div>
+                                                    <div class="panel panel-default">
+                                                      <div class="panel-heading " role="tab" id="460">
+                                                        <h4 class="panel-title">
+                                                          <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse460" aria-expanded="false" aria-controls="collapseThree">
+                                                            CS460: Introduction to Computer and Network Security (Currently Enrolled)
+                                                          </a>
+                                                        </h4>
+                                                      </div>
+                                                      <div id="collapse460" class="panel-collapse collapse" role="tabpanel" aria-labelledby="460">
+                                                        <div class="panel-body p1">
+                                                          This course provides an introduction to the principles and practice of computer and network security with a focus on both fundamentals and practical information. The three key topics of this course are cryptography, privacy, and network security. Subtopics include ciphers, key exchange, security services (integrity, availability, confidentiality, etc.), network and web based security attacks, anonymous communications, vulnerabilities, and countermeasures.
+                                                        </div>
+                                                      </div>
+                                                    </div>
+                                                    <div class="panel panel-default">
+                                                      <div class="panel-heading " role="tab" id="520">
+                                                        <h4 class="panel-title">
+                                                          <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse520" aria-expanded="false" aria-controls="collapseThree">
+                                                            CS520: Software Engineering: Synthesis and Development (Currently Enrolled)
+                                                          </a>
+                                                        </h4>
+                                                      </div>
+                                                      <div id="collapse520" class="panel-collapse collapse" role="tabpanel" aria-labelledby="520">
+                                                        <div class="panel-body p1">
+                                                          Introduces students to the principal activities involved in developing high-quality software systems in a variety of application domains. Topics include: requirements analysis, formal and informal specification methods, process definition, software design, testing, and risk management. The course will pay particular attention to differences in software development approaches in different contexts.
+                                                        </div>
+                                                      </div>
+                                                    </div>
+                                                </div> <!-- end panel-group -->
+                </div> <!-- end class course text -->
+              </div> <!-- end col 6 -->
+            </div> <!-- end row -->
+          </div> <!-- end container -->
+        </section>
+
+       </div> <!-- end c tab -->
+      </div>
+    </div>
+
+
+
+                          <!-- <div role="tabpanel" class="tab-pane active" id="wachusett">
+                            <div class = "row">
+                              <div class = "col-md 6">
+                                <img src="img/wachusettpic.jpg" alt="" class="img-responsive">
+                              </div>
+                            </div>
+                          </div> -->
+
+</div>
+
+
+</section>
+
+<section id = "projects">
+  <div class = "container-fluid bg-grey">
+    <div class = "feature_header text-center" style="padding-bottom: 100px;">
+      <h1>PROJECTS</h1>
+    </div>
+
+    <div class = "row project_body">
+      <div class = "col-md-4 text-right" style = "padding-left: 50px;">
+        <a href="https://github.com/GagnonStyle/quail" class="project-link">
+          <div class = "projectPic">
+            <a href="https://github.com/GagnonStyle/quail" class="project-link">
+            <img src="img/ufoodLogo.jpg" alt="ufood" class="img-responsive">
+          </div>
+        </a>
+        <div class = "project-desc text-left">
+        <h2 class ="p"> U-Food </h2> <h3 class ="p">(Node.js Web Application)</h3>
+        <p class="p"> U-Food is an application that seeks to serve information to students regarding
+          dining outlets on campus, all from the application. <br><br> It is nice to know whether or not a dining hall is
+          crowded, noisy, or even how good the food is on that day. This app lets the user view all of the dining halls on campus,
+          and it allows them to update the dining halls traffic and noise levels in real time. Users are also encouraged
+          to leave text reviews about the dining hall. <br><br> (To see the source code and more information, clink the icon above to see the GitHub page!)  </p>
+
+        </div>
+      </div>
+
+      <div class = "col-md-8">
+        <div class = "container">
+         <div id="myCarousel2" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#myCarousel2" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel2" data-slide-to="1"></li>
+            <li data-target="#myCarousel2" data-slide-to="2"></li>
+            <li data-target="#myCarousel2" data-slide-to="3"></li>
+            <li data-target="#myCarousel2" data-slide-to="4"></li>
+          </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+   <div class = "item active">
+    <div class="carousel-pic">
+      <img src="img/UFoodAbout.jpg" alt="">
+    </div>
+   </div>
+
+  <div class = "item">
+    <div class="carousel-pic">
+      <img src="img/UFoodHome.jpg" alt="">
+    </div>
+  </div>
+
+  <div class = "item">
+    <div class="carousel-pic">
+      <img src="img/UFoodDiningHall.jpg" alt="">
+    </div>
+  </div>
+
+  <div class = "item">
+    <div class="carousel-pic">
+      <img src="img/UFoodReview.jpg" alt="">
+    </div>
+  </div>
+
+  <div class = "item">
+    <div class="carousel-pic">
+      <img src="img/UFoodChangeNoise.jpg" alt="">
+    </div>
+  </div>
+</div>
+
+          <!-- Left and right controls -->
+          <a class="left carousel-control" href="#myCarousel2" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="right carousel-control" href="#myCarousel2" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+
+
+
+      </div>
+       </div>
+      </div>
+
+
+    <div class = "row project_body" style="padding-left: 50px;">
+      <div class = "col-md-4 text-right">
+        <a href="https://github.com/Galvanique/GTracker" class="project-link">
+          <!-- <div class = "project-hover">
+            <div class ="project-hover-content">
+              <i class = "fa fa-plus-square" aria-hidden="true"</i>
+            </div>
+          </div> -->
+          <div class = "projectPic">
+            <a href="https://github.com/Galvanique/GTracker" class="project-link">
+            <img src="img/gtrackerLogo.jpg" alt="ufood" class="img-responsive">
+          </div>
+        </a>
+          <div class = "project-desc text-left">
+          <h2 class = "p"> GTracker </h2> <h3 class = "p"> (Android Mobile App)</h3>
+          <p class = "p"> GTracker is a mobile app that seeks to help users keep track of their moods and emotions over time.
+            Users enter their moods and the app will store them in a database. Users are conditionally offered coping strategies based
+            on their moods, and they see histograms and tables of their past moods.
+            <br><br>  (To see the source code and more information, clink the icon above to see the GitHub page!)</p>
+          </div>
+      </div>
+
+      <div class = "col-md-8">
+        <div class = "container">
+         <div id="myCarousel" class="carousel slide" data-ride="carousel" style="width:558px; height: 886px; margin: 0;">
+  <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+            <li data-target="#myCarousel" data-slide-to="3"></li>
+            <li data-target="#myCarousel" data-slide-to="4"></li>
+            <li data-target="#myCarousel" data-slide-to="5"></li>
+          </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" style="width: 100%;" role="listbox">
+   <div class = "item active">
+    <div class="carousel-pic-2">
+      <img src="img/GTrackerHome.jpg" alt="">
+    </div>
+   </div>
+
+  <div class = "item">
+    <div class="carousel-pic-2">
+      <img src="img/GTrackerMood.jpg" alt="">
+    </div>
+  </div>
+
+  <div class = "item">
+    <div class="carousel-pic-2">
+      <img src="img/GTrackerMagnitude.jpg" alt="">
+    </div>
+  </div>
+
+  <div class = "item">
+    <div class="carousel-pic-2">
+      <img src="img/GTrackerCopingStrategy.jpg" alt="">
+    </div>
+  </div>
+
+  <div class = "item">
+    <div class="carousel-pic-2">
+      <img src="img/GTrackerGetHelp.jpg" alt="">
+    </div>
+  </div>
+<div class = "item">
+  <div class="carousel-pic-2">
+    <img src="img/GTrackerViewHistory.jpg" alt="">
+  </div>
+</div>
+</div>
+
+          <!-- Left and right controls -->
+          <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+
+
+
+      </div>
+       </div>
+
+    </div>
+    <div class = "upcoming-projects" style = "padding-left: 50px; padding-bottom: 100px;">
+    <h2 class = "p"> More projects in progress! </h2>
+    <!-- <div class="progress-bar progress-bar-success active" role="progressbar"
+      aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:40%">
+      In Progress!
+    </div> -->
+    </div>
+
+  </div>
+
+
+
+
+
+</section>
+
+<!-- <section id= "projects">
+<div class="projects container-fluid bg-grey">
+  <div class="feature_header text-center">
+      <h1>PROJECTS</h1>>
+      <div class="divider"></div>
+  </div>
+      <div class="row">
+        <div class = "col-md-4 project-item">
+          <a href="#UFoodModal" class = "project-link" data-toggle="modal">
+            <div class = "project-hover">
+              <div class="project-hover-content">
+                <i class = "fa fa-plus-square" aria-hidden="true"> </i>
+              </div>
+            </div>
+            <div class= "projectPic">
+             <img src="img/ufoodLogo.png" alt="ufood" class="img-responsive">
+           </div>
+          </a>
+            <div class = "project-caption">
+              <h3>U-Food</h3>
+            </div>
+        </div>
+
+        <div class = "col-md-4 project-item">
+          <a href="#GTrackerModal" class = "project-link" data-toggle="modal">
+            <div class = "project-hover">
+              <div class="project-hover-content">
+                <i class = "fa fa-plus fa-3x"></i>
+              </div>
+            </div>
+            <div class= "projectPic">
+             <img src="img/gtrackerLogo.png" alt="ufood" class="img-responsive">
+           </div>
+          </a>
+            <div class = "project-caption">
+              <h3>GTracker</h3>
+            </div>
+        </div>
+
+        <div class = "col-md-4 project-item">
+          <div class = "progress-bar progress-bar-striped progress-bar-success active" role="progressbar"
+                    aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:50%" background-color="white">
+            IN PROGRESS!
+          </div>
+          <br>
+          <p> Future projects undergoing construction! </p>
+        </div>
+
+      </div>
+  </div>
+</section> -->
+
+
+
+
+<section id="experience">
+<div class ="experience container-fluid">
+  <div class ="feature_header text-center">
+    <h1>EXPERIENCE</h1>
+     <h3><u> Work Summary:</u></h3>
+  </div>
+
+  <div class ="row-fluid big_item">
+    <div class = "experience_img col-md-3 text-right">
+      <img src = "img/campusrec.jpg" style="width:75%; height:75%;">
+      <br>
+    </div>
+    <div class = "col-md-9">
+      <div = "experience_item">
+        <br><br>
+        <h2> U-Mass Campus Recreation - Amherst, MA (2015-Present)</h2>
+        <h3> Title: Facility Operations Supervisor </h3>
+        <p class="e">-Monitor Campus Recreation facilities to ensure proper functionality as well as manage facility equipment</p>
+        <p class="e">-Collaborate with colleagues in team building envioronments to display exemplary customer service</p>
+      </div>
+    </div>
+  </div>
+
+  <div class ="row-fluid big_item">
+    <div class = "experience_img col-md-3 text-right">
+      <img src = "img/denunziogroup.jpg" style="width:75%; height:100%; padding-top: 25px;">
+
+    </div>
+    <div class = "col-md-9">
+     <div class = "experience_item">
+      <h2> The DeNunzio Group - Cambridge, MA (Summer of 2016)</h2>
+      <h3> Title: Assessment Research + Property Analysis Intern </h3>
+      <p class="e"> -Conduct assessment research for potential commercial property development</p>
+      <p class="e"> -Analyzed properties for... </p>
+    </div>
+   </div>
+  </div>
+
+  <div class = "row-fluid big_item">
+    <div class = "experience_img col-md-3 text-right">
+      <img src = "img/markleygroup.jpg" style="width:75%; height:75%; padding-top: 13px;">
+      <br>
+    </div>
+    <div class = "col-md-9">
+     <div class = "experience_item">
+      <h2> Markley Group Data Center - Boston, MA (Summer of 2014)</h2>
+      <h3> Title: Sales Assistant Intern </h3>
+        <p class="e">-Conduct independent research regarding Salesforce tools of which the company relies on for market data</p>
+        <p class="e">-Collaborate with a retained outside consultant to augment the company's new Salesforce implementation</p>
+        <p class="e">-Work towards developing mass email web templates for marketing use</p>
+        <p class="e">-Responsible for importing data and cleaning the company's client database</p>
+     </div>
+    </div>
+  </div>
+
+  <div class= "row-fluid big_item">
+    <div class = "experience_img col-md-3 text-right">
+      <img src = "img/phoenix.jpg" style="width:75%; height:75%;">
+      <br>
+    </div>
+    <div class = "col-md-9">
+    <div class ="experience_item">
+      <h2> Phoenix Communications - Shrewsbury, MA (Summers of 2013 + 2014)</h2>
+      <h3> Title: Drafting Assistant Intern </h3>
+       <p class="e">Utilize AutoCAD/CADD drafting software to create drawings applied to various civil engineering and telecommunications projects</p>
+       <p class="e">-Responsible for recording and measuring field data required for producing drawings</p>
+    </div>
+  </div>
+  </div>
+</div>
+</section>
+
+<section id = "contact">
+<div class ="contact container-fluid bg-grey" style="padding-bottom: 350px">
+  <div class ="feature_header text-center" style="padding-bottom: 100px;">
+    <h1>CONTACT ME</h1>
+  </div>
+
+<div class = "row-fluid contact_body" align="center">
+  <div class = "col-md-3">
+     <img src="img/email.jpg">
+     <p class = "c"><b>Personal Email: davew000@gmail.com </b></p>
+     <p class = "c">School Email: dwhitaker@umass.edu</p>
+  </div>
+
+  <div class = "col-md-3">
+    <img src = "img/phone.jpg">
+    <p class = "c"> <b> Cell Phone: (774) 364-2653 </b> </p>
+  </div>
+
+  <div class = "col-md-3">
+    <img src = "img/LinkedIn.jpg">
+    <br><br><br><br>
+    <a href = "https://www.linkedin.com/in/david-whitaker-244448a0?trk=nav_responsive_tab_profile_pic">
+    <button class="btn btn-default btn-lg contact-btn" align="center"> My LinkedIn</button> </a>
+  </div>
+
+  <div class = "col-md-3">
+    <img src = "img/github.jpg">
+    <br><br><br><br>
+    <a href = "https://github.com/dgwhitaker">
+    <button class="btn btn-default btn-lg contact-btn" align="center">My GitHub</button></a>
+  </div>
+</div>
+
+  <!-- <table class ="table table-striped">
+    <tbody>
+      <tr>
+        <th>EMAIL</th>
+          <td>davew000@gmail.com</td>
+      </tr>
+      <tr>
+        <th>PHONE</th>
+          <td>774.364.2653</td>
+      </tr>
+      <tr>
+        <th>GITHUB</th>
+          <td><a href="github.com/dgwhitaker">github.com/dgwhitaker</a></td>
+      </tr>
+    </tbody>
+  </table> -->
+
+
+
+</div>
+</section>
+
+<!-- <section id ="personal">
+  <div class ="contact container-fluid" style="padding-bottom: 450px">
+    <div class ="feature_header text-center">
+      <p>WORK IN PROGRESS</p>
+    </div>
+  </div>
+</section> -->
+
+
+</body>
+
+
+
+</html>
