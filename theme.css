@@ -61,6 +61,11 @@ header {
   height: 200px;
 }
 
+h2.e{
+  color: #80b3ff;
+  font-weight: bold;
+}
+
 .big_item{
   padding-bottom: 400px;
 
@@ -284,76 +289,7 @@ hr.style1:after {
 	border-bottom: 2px solid #fff;
 }
 
-/*.project-modal .modal-content {
-    border-radius: 0;
-    background-clip: border-box;
-    -webkit-box-shadow: none;
-    box-shadow: none;
-    border: 0;
-    min-height: 100%;*/
-    /*padding: 100px 0;
-    padding-bottom: 1000px;
-    text-align: center;*/
-/*}*/
 
-/*.project-modal .close-modal {
-    position: absolute;
-    width: 75px;
-    height: 75px;
-    background-color: transparent;
-    top: 25px;
-    right: 25px;
-    cursor: pointer
-}
-.project-modal .close-modal:hover {
-    opacity: .3
-}
-.project-modal .close-modal .lr {
-    height: 75px;
-    width: 1px;
-    margin-left: 35px;
-    background-color: #222;
-    transform: rotate(45deg);
-    -ms-transform: rotate(45deg);
-    -webkit-transform: rotate(45deg);
-    z-index: 1051
-}
-.project-modal .close-modal .lr .rl {
-    height: 75px;
-    width: 1px;
-    background-color: #222;
-    transform: rotate(90deg);
-    -ms-transform: rotate(90deg);
-    -webkit-transform: rotate(90deg);
-    z-index: 1052
-}
-.project-modal .modal-backdrop {
-    opacity: 0;
-    display: none
-}
-
-.modal1body{
-  padding-top: 200px;
-  position: relative;
-}
-
-::-moz-selection {
-    text-shadow: none;
-    background: #fed136
-}
-::selection {
-    text-shadow: none;
-    background: #fed136
-}*/
-/*img::selection {
-    background: 0 0
-}
-img::-moz-selection {
-    background: 0 0
-}*/
-/*body {
-    webkit-tap-highlight-color: #fed136
-}*/
 .projectPic img{
   width: 100%;
   height: 100%;
@@ -383,60 +319,3 @@ img::-moz-selection {
       margin: auto;
   }
 /*
-#wrapper {
-	width: 350px;
-	height: 500px;
-	padding: 0 100px;
-	margin: -250px 0 0 -275px;
-	position: absolute;
-	left: 50%;
-	top: 50%;
-}
-#carouselmain img {
-	display: block;
-	float: left;
-	border: none;
-  width: 600px;
-  height: 600px;
-}
-#prev, #next {
-	display: block;
-	position: absolute;
-}
-#prev, #next {
-	background: center center no-repeat #c99;
-	width: 100px;
-	height: 100%;
-	top: 0;
-}
-#prev:hover, #next:hover {
-	background-color: #c66;
-}
-#prev {
-  background-image: "img/chevron-left.png"
-	left: 0;
-}
-#next {
-  background-image: "img/chevron-right.png"
-	right: 0;
-}
-*/
-
-
-/*.main-tab-list > li> a, .main-tab-list > li.active > a, .main-tab-list > li.active > a:hover, .main-tab-list > li.active > a:focus {
-    background: transparent;
-    padding: 0px;
-}*/
-/*.main-tab-list > li.active:after{
-    content: "";
-    position: absolute;
-    width: 30px;
-    height: 30px;
-    background: #fff!important;
-     -webkit-transform: rotate(45deg);
-    -ms-transform: rotate(45deg);
-    -o-transform: rotate(45deg);
-    transform: rotate(45deg);
-    right: -24px;
-    top: 28px;
-}*/
