@@ -55,6 +55,13 @@ header {
   text-align: center;
 }
 
+h2.home {
+  color: white;
+  right: 0;
+  bottom: 0;
+  font-size: 16px;
+}
+
 .experience_img img{
   position: relative;
   width: 200px;
